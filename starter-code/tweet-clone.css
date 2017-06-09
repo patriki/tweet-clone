@@ -1,15 +1,100 @@
-body{
-  background: rgb(244, 248, 249);
-  font-family: Helvetica, sans-serif;
+.cont{
+	background: rgb(244, 248, 249);
+	font-family: Helvetica, sans-serif;
+	width: 880px;
+ 	height: 300px;
+ 	padding: 10px;
 }
 
 .tweet{
-  background: rgb(255, 255, 255);
+ 	background: rgb(255, 255, 255);
+	border: 1px solid rgb(225, 232, 237);	
+  	border-radius: 5px;
+	padding:30px;
+	width: 818px;
 }
-/* - border:            rgb(225, 232, 237)
- - user name:         rgb(0, 0, 0)
- - user account:      rgb(104, 109, 129)
- - text:              rgb(0, 0, 0)
- - date:              rgb(101, 116, 127)
- - bottom text color: rgb(105, 120, 130)
- - follow button:     rgb(85, 172, 238)!*/
+
+/*TWEET-PROFILE*/
+
+.tweet-profile{
+	width:100%;
+	height: 100px;
+}
+
+.profile-img{
+	float:left;	
+}
+
+.profile-info{
+	float:left;	
+	width: 150px;
+	margin: 10px;
+}
+
+.profile-info div{
+	float:left;
+}
+
+.profile-btt{
+	float:right;
+	border: 2px solid rgb(85, 172, 238);
+  	border-radius: 10px;
+	color: rgb(85, 172, 238);
+	font-size: 22px;
+	align: center;
+	padding:10px;
+}
+
+
+/*TWEET-BOX*/
+
+.tweet-box{
+	width:100%;
+	height: 100px;
+}
+
+.tweet-box div{
+	width:100%;
+	float:left;
+}
+
+
+/*TWEET-INFO*/
+
+.tweet-info{
+	width:100%;
+	height: 40px;
+}
+
+.tweet-info div{
+	padding:0 20px;
+	float:left;
+}
+
+.tweet-info img{
+	margin:5px;
+}
+
+
+
+/**/
+
+.txt-black{
+	color: rgb(0, 0, 0);
+	font-size: 26px;
+}
+
+.txt-grey{
+	color: rgb(101, 116, 127);
+	font-size: 22px;
+}
+
+
+p{
+	margin:3px;
+	float:left;
+}
+
+img{
+	float:left;
+}
